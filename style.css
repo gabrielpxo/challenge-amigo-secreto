@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  background: linear-gradient(135deg, #e0f7fa, #f1f8e9);
+  color: #333;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background: #009688;
+  color: white;
+  padding: 20px;
+  font-size: 1.5rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+.entrada {
+  margin: 20px 0;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 220px;
+  border: 2px solid #009688;
+  border-radius: 8px;
+  outline: none;
+}
+
+button {
+  padding: 10px 16px;
+  margin: 8px 4px;
+  border: none;
+  border-radius: 8px;
+  background-color: #009688;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #00796b;
+  transform: scale(1.05);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+ul li {
+  background: white;
+  border: 1px solid #ccc;
+  margin: 5px auto;
+  padding: 10px;
+  width: 260px;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+ul li:hover {
+  background: #f1f1f1;
+}
+
+.resultado h2 {
+  margin-top: 30px;
+  font-size: 1.4rem;
+  color: #d32f2f;
+  transition: transform 0.3s;
+}
+
+footer {
+  background: #004d40;
+  color: #fff;
+  padding: 10px;
+  font-size: 0.9rem;
+}
